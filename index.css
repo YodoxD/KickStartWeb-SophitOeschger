@@ -77,6 +77,15 @@ body{
     background-color: #c0d7fc; 
   }
 
+.day5 {
+    background-color: #8eecf5;
+    box-shadow: 4px 8px 0px 0px #7bebf5;
+  }
+  
+.day5:hover {
+    background-color: #bff3f8; 
+  }
+
 p {
     text-align: center;
     color: #55acee;
