@@ -1,0 +1,18 @@
+div{
+    border: 1px solid blue;
+    padding: 20px;
+    margin: 20px;
+}
+
+.eins{
+    display: none;
+    
+}
+.zwei{
+    display: inline;
+
+}
+
+.drei{
+    display: inline-block;
+}
