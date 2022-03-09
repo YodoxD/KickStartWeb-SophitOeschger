@@ -3,8 +3,8 @@
 
 body{
     background-color: rgb(226, 246, 250);
-    font-family: "Open Sans";
-    
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
 }
 
 .link:hover{
@@ -32,7 +32,7 @@ body{
     margin: 20px;
     color: rgb(250, 239, 239);
     position: relative;
-    display: inline;
+    display: inline-block;
 }
 
 .knoepfe:active {
@@ -52,7 +52,7 @@ body{
   
 .day2 {
     background-color: #bdb2ff;
-    box-shadow: 4px 8px 0px 0px #a3abee;
+    box-shadow: 4px 8px 0px 0px #858cc5;
   }
   
 .day2:hover {
@@ -79,11 +79,20 @@ body{
 
 .day5 {
     background-color: #8eecf5;
-    box-shadow: 4px 8px 0px 0px #7bebf5;
+    box-shadow: 4px 8px 0px 0px #55c8d3;
   }
   
 .day5:hover {
     background-color: #bff3f8; 
+  }
+
+.day6 {
+    background-color: #87f57d;
+    box-shadow: 4px 8px 0px 0px #4ec543;
+  }
+  
+.day6:hover {
+    background-color: #9ff897; 
   }
 
 p {
