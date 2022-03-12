@@ -1,0 +1,18 @@
+body{
+    background-color: #D2C2F0;
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: uppercase;
+    font-weight:bolder;
+}
+
+.text1{
+    font-size: 10rem;
+    color: #DDFA48;
+    text-align: left;
+}
+
+.text2{
+    font-size: 10rem;
+    color: #DDFA48;
+    text-align: right;
+}

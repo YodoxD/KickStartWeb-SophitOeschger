@@ -1,0 +1,60 @@
+/* FONT IMPORT */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600&display=swap');
+
+body{
+    background-color: #6D74E8;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    color: white;
+}
+
+.link:hover{
+    color: #B4EBCA;
+}
+
+.titel{
+    font-size: 100px;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+
+}
+
+.buttons{
+    padding-top: 100px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+.knoepfe{
+    border-radius: 12px;
+    padding: 15px 50px;
+    margin: 20px;
+    color: white;
+    position: relative;
+    display: inline-block;
+}
+
+.knoepfe:active {
+    transform: translate(0px, 5px);
+    -webkit-transform: translate(0px, 5px);
+    box-shadow: 4px 8px 0px 0px rgb(158, 158, 158);
+  }
+
+.days {
+    background-color: #fab5fa;
+    box-shadow: 4px 8px 0px 0px #3CDBE5;
+  }
+  
+.days:hover {
+    background-color: #facffa;
+  }
+  
+
+p {
+    text-align: center;
+    color: #55acee;
+    padding-top: 100px;
+    
+}
