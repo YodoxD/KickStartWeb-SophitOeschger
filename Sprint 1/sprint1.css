@@ -1,18 +1,74 @@
+/* FONT IMPORT*/
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@800&display=swap');
+
 body{
     background-color: #D2C2F0;
-    font-family: 'Courier New', Courier, monospace;
-    text-transform: uppercase;
+    font-family: 'Playfair Display', serif;
+    text-transform: lowercase;
     font-weight:bolder;
 }
 
-.text1{
-    font-size: 10rem;
+.seite1{
+    font-size: 5rem;
     color: #DDFA48;
     text-align: left;
 }
 
-.text2{
-    font-size: 10rem;
+.seite2{
+    font-size: 5rem;
     color: #DDFA48;
     text-align: right;
+    margin: 15rem;
 }
+
+.seite3{
+    font-size: 10rem;
+    color: #151730;
+    writing-mode: vertical-lr;
+    text-align: left;
+}
+
+.box1 {
+    font-size: 8rem;
+    text-align: right;
+    writing-mode: horizontal-tb;
+    color: #DDFA48;
+    width: 400px;
+    height: 400px;
+    margin: 20px;
+    padding: 10px;
+    float: left;
+    }
+
+.box2 {
+    font-size: 6rem;
+    text-align: left;
+    writing-mode: horizontal-tb;
+    color: #DDFA48;
+    width: 400px;
+    height: 400px;
+    margin: 20px;
+    padding: 10px;
+    float: right;
+    }
+
+.rotate1 {
+    width: 70rem;
+    height: 60rem;
+    text-align: right;
+    background-color:#151730;
+    -ms-transform: rotate(-45deg); /* IE 9 */
+    transform: rotate(-45deg);
+    margin: 8rem;
+    }
+
+.box3 {
+    font-size: 10rem;
+    text-align: left; 
+    color: #DDFA48;
+    width: 400px;
+    height: 400px;
+    margin: 50px;
+    padding: 10px;
+    float: right;
+    }
