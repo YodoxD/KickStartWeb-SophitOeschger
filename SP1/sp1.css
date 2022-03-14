@@ -1,0 +1,17 @@
+/* FONT IMPORT*/
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script:wght@400;700&display=swap');
+
+body{
+    font-family: 'Oleo Script', cursive;
+    font-size: 5rem;
+}
+
+.bg1{
+    background-color: #D2C2F0;
+    padding: 30vw;
+}
+
+.typ1{
+    color: #DDFA48;
+    text-align: left;
+} 
