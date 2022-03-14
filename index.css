@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600&display=swap');
 
 body{
-    background-color: rgb(226, 246, 250);
+    background-color: #2F323A;
     font-family: 'Open Sans', sans-serif;
     font-weight: 800;
 }
@@ -41,63 +41,28 @@ body{
     box-shadow: 4px 8px 0px 0px rgb(158, 158, 158);
   }
 
-.day1 {
-    background-color: #fab5fa;
-    box-shadow: 4px 8px 0px 0px #e296b9;
-  }
-  
-.day1:hover {
-    background-color: #facffa;
-  }
-  
-.day2 {
+
+.day {
     background-color: #bdb2ff;
     box-shadow: 4px 8px 0px 0px #858cc5;
   }
   
-.day2:hover {
+.day:hover {
     background-color: #D3D5EB;
   }
   
-.day3 {
-    background-color: #ffadad;
-    box-shadow: 4px 8px 0px 0px #f88989;
-  }
-  
-.day3:hover {
-    background-color: #fdd1d1;
-  }
-  
-.day4 {
-    background-color: #a0c4ff;
-    box-shadow: 4px 8px 0px 0px #79abfa;
-  }
-  
-.day4:hover {
-    background-color: #c0d7fc; 
-  }
+.sprint{
+  background-color: #60dd5c;
+  box-shadow: 4px 8px 0px 0px #3fac3b;
+}
 
-.day5 {
-    background-color: #8eecf5;
-    box-shadow: 4px 8px 0px 0px #55c8d3;
-  }
-  
-.day5:hover {
-    background-color: #bff3f8; 
-  }
-
-.day6 {
-    background-color: #87f57d;
-    box-shadow: 4px 8px 0px 0px #4ec543;
-  }
-  
-.day6:hover {
-    background-color: #9ff897; 
-  }
+.sprint:hover {
+  background-color: #aaf1a8;
+}
 
 p {
     text-align: center;
-    color: #55acee;
+    color: #b1d0ff;
     padding-top: 100px;
     
 }
