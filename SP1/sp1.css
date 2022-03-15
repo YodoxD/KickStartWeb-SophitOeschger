@@ -56,6 +56,7 @@ body{
     width: 14rem;
     height: 16rem;
     padding: 1rem;
+    
     }
 
 .ThatyouDont {
@@ -64,27 +65,27 @@ body{
     color: #DDFA48;
     display: inline-block;
     width: 300px;
-    height: 700px;
+    height: 22rem;
     margin: 20px;
-    padding: 10px;
+    padding: 1rem;
     }
 
 
-.ButtheBruise{
-    font-size: 8rem;
+
+.butTheBruise{
+    font-size: 10rem;
     text-align: right;
     color: #DDFA48;
-    transform: rotate(320deg);
-    width: 20rem;
-    height: 5rem;
+    padding-top: 5rem;
+    padding-left: 20rem;
+    padding-right: 8rem;
 }
 
-.rotate1 {
-    font-size: 8rem;
-    width: 70rem;
-    height: 60rem;
-    text-align: right;
-    -ms-transform: rotate(-45deg); /* IE 9 */
-    transform: rotate(-45deg); 
-    margin: 1rem 1rem 1rem 1rem;
-    }
+.Ego{
+    font-size: 30rem;
+    text-align: center;
+    color:#151730;
+    position: relative;
+    top: -10rem;
+    left: 5rem;
+}
