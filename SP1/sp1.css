@@ -52,10 +52,10 @@ body{
     text-align: center;
     transform: rotate(270deg);
     color: #151730;
-    position: fixed;
     width: 14rem;
     height: 16rem;
     padding: 1rem;
+    display: inline-block;
     
     }
 
@@ -85,6 +85,15 @@ body{
     font-size: 30rem;
     text-align: center;
     color:#151730;
+    position: relative;
+    top: -10rem;
+    left: 5rem;
+}
+
+.MakeYouGo{
+    font-size: 30rem;
+    text-align: center;
+    color:#DDFA48;
     position: relative;
     top: -10rem;
     left: 5rem;
