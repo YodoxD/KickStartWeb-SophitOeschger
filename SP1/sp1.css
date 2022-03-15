@@ -52,7 +52,7 @@ body{
     text-align: center;
     transform: rotate(270deg);
     color: #151730;
-    display: inline-block;
+    position: fixed;
     width: 14rem;
     height: 16rem;
     padding: 1rem;
