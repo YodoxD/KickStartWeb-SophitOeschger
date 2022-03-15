@@ -1,17 +1,90 @@
 /* FONT IMPORT*/
 @import url('https://fonts.googleapis.com/css2?family=Oleo+Script:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
 
 body{
-    font-family: 'Oleo Script', cursive;
-    font-size: 5rem;
+    font-family: 'Yeseva One', cursive;
+    text-transform: none;
+}
+
+.bgA{
+    background-color: #D2C2F0;
+    padding: 10vw;
 }
 
 .bg1{
     background-color: #D2C2F0;
-    padding: 30vw;
+    padding: 3vw;
 }
 
-.typ1{
+.text1{
+    font-size: 8rem;
     color: #DDFA48;
     text-align: left;
-} 
+    padding: 2rem;
+}
+
+.text2{
+    font-size: 8rem;
+    color: #DDFA48;
+    text-align: right;
+    padding: 2rem;
+}
+
+.bgThatyouDont{
+    background-color: #D2C2F0;
+    padding: 18rem 2rem;
+}
+
+.ThatyouDont {
+    font-size: 8rem;
+    text-align: right;
+    color: #DDFA48;
+    display: inline-block;
+    width: 300px;
+    height: 700px;
+    margin: 20px;
+    padding: 10px;
+    }
+
+.badbone {
+    font-size: 17rem;
+    text-align: center;
+    transform: rotate(270deg);
+    color: #151730;
+    display: inline-block;
+    width: 14rem;
+    height: 16rem;
+    padding: 1rem;
+    }
+
+.ThatyouDont {
+    font-size: 8rem;
+    text-align: right;
+    color: #DDFA48;
+    display: inline-block;
+    width: 300px;
+    height: 700px;
+    margin: 20px;
+    padding: 10px;
+    }
+
+
+.ButtheBruise{
+    font-size: 8rem;
+    text-align: right;
+    color: #DDFA48;
+    transform: rotate(320deg);
+    width: 20rem;
+    height: 5rem;
+}
+
+.rotate1 {
+    font-size: 8rem;
+    width: 70rem;
+    height: 60rem;
+    text-align: right;
+    -ms-transform: rotate(-45deg); /* IE 9 */
+    transform: rotate(-45deg); 
+    margin: 1rem 1rem 1rem 1rem;
+    }
