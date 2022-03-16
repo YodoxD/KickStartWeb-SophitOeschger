@@ -33,7 +33,7 @@ body{
 
 .bgThatyouDont{
     background-color: #D2C2F0;
-    padding: 18rem 2rem;
+    padding: 18rem 2rem 0rem 2rem;
 }
 
 .ThatyouDont {
@@ -86,15 +86,28 @@ body{
     text-align: center;
     color:#151730;
     position: relative;
-    top: -10rem;
-    left: 5rem;
+    top: -8rem;
+    left: 8rem;
 }
 
 .MakeYouGo{
-    font-size: 30rem;
-    text-align: center;
+    font-size: 8rem;
+    text-align: right;
     color:#DDFA48;
+    display: inline-block;
+    width: 22rem;
+    height: 30rem;
     position: relative;
-    top: -10rem;
-    left: 5rem;
+    top: -14rem;
+}
+
+.bgWild{
+    background-color: #151730;
+    padding: 18rem 2rem 0rem 2rem;
+}
+.wild{
+    font-size: 12rem;
+    text-align: right;
+    color:#DDFA48;
+    transform: rotate(320deg);
 }
