@@ -16,13 +16,14 @@ body{
     color: #b1d0ff;
     text-align: center;
     text-transform: uppercase;
+    text-decoration: none;
 
 }
 
 .buttons{
     padding-top: 100px;
     text-align: center;
-    text-transform: uppercase;
+    text-transform: uppercas;
     font-size: 30px;
 }
 
@@ -30,7 +31,7 @@ body{
     border-radius: 12px;
     padding: 15px 50px;
     margin: 20px;
-    color: rgb(250, 239, 239);
+    color: #2F323A;
     position: relative;
     display: inline-block;
 }

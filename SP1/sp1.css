@@ -71,7 +71,6 @@ body{
     }
 
 
-
 .butTheBruise{
     font-size: 10rem;
     text-align: right;
@@ -103,11 +102,38 @@ body{
 
 .bgWild{
     background-color: #151730;
-    padding: 18rem 2rem 0rem 2rem;
+    overflow: hidden;
 }
 .wild{
+
     font-size: 12rem;
     text-align: right;
     color:#DDFA48;
-    transform: rotate(320deg);
+    overflow: hidden;
+    transform: rotate(330deg);
+    position: relative;
+    left: 2rem;
+}
+.bgwannaBelieve{
+    background-color:#D2C2F0;
+    height: 70rem;
+    overflow: hidden;
+}
+
+.wannaBelieve{
+    font-size: 28rem;
+    text-align: center;
+    line-height: 20rem;
+    color: #DDFA48;
+    top: -6rem;
+    position: relative;
+}
+
+.bgstoneCold{
+    background-color: #151730;
+}
+
+.blurtest{
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
 }
