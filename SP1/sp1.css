@@ -126,11 +126,21 @@ body{
     line-height: 20rem;
     color: #DDFA48;
     top: -6rem;
+    right: 4rem;
     position: relative;
 }
 
 .bgstoneCold{
     background-color: #151730;
+}
+
+.stoneCold{
+    font-size: 8rem;
+    text-align: right;
+    color:#DDFA48;
+    width: 22rem;
+    height: 30rem;
+    position: relative;
 }
 
 .blurtest{

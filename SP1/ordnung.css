@@ -1,0 +1,31 @@
+/* FONT IMPORT*/
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
+
+body{
+    font-family: 'Yeseva One', cursive;
+    text-transform: none;
+}
+
+.bg1{
+    background-color: #D2C2F0;
+    padding: 18rem 2rem 0rem 2rem;
+}
+
+.wanna1{
+    font-size: 8rem;
+    color: #DDFA48;
+    text-align: left;
+    padding: 2rem;
+    top: 5rem;
+    position: relative;
+}
+
+.wanna2{
+    font-size: 8rem;
+    color: #DDFA48;
+    text-align: right;
+    padding: 2rem;
+    top: 15rem;
+    position: relative;
+}
