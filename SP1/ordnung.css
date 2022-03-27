@@ -5,27 +5,40 @@
 body{
     font-family: 'Yeseva One', cursive;
     text-transform: none;
-}
-
-.bg1{
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
     background-color: #D2C2F0;
-    padding: 18rem 2rem 0rem 2rem;
 }
 
-.wanna1{
-    font-size: 8rem;
-    color: #DDFA48;
-    text-align: left;
-    padding: 2rem;
-    top: 5rem;
+h2{
     position: relative;
+    font-size: 14vw;
+    color: #D2C2F0;
+    -webkit-text-stroke: 0.2vw #DDFA48;
 }
 
-.wanna2{
-    font-size: 8rem;
+h2::before{
+    content: attr(data-text);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
     color: #DDFA48;
-    text-align: right;
-    padding: 2rem;
-    top: 15rem;
-    position: relative;
+    -webkit-text-stroke: 0vw #b79fe4;
+    border-right: 2px solid #DDFA48;
+    overflow: hidden;
+    animation: animate 6s linear infinite;
+}
+
+@keyframes animate{
+    0%, 10%, 100%
+    {
+        width: 0;
+    }
+    70%, 90%
+    {
+        width: 100%;
+    }
 }

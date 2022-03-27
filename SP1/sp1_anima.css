@@ -1,0 +1,22 @@
+.bg3DIsometric{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    min-width: 50vw;
+    background-color: #151730;
+}
+
+.Isometric{
+    font-size: 15rem;
+    text-align: center;
+    height: 90vh;
+    line-height: 90%;
+    color: #DDFA48;
+    font-weight: 800;
+    text-shadow: 5px 5px 0px #C8D9EB,
+                 10px 10px 0px #B09D8C,
+                 15px 15px 0px #97AFD0,
+                 20px 20px 0px #303E5E,
+                 25px 25px 0px #405DFD;
+}
