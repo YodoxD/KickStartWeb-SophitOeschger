@@ -1,0 +1,386 @@
+/* FONT IMPORT*/
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Niconne&display=swap');
+
+/* COLOR PALETTE*/
+
+:root{
+    --purple: #D2C2F0;
+    --blue: #151730;
+    --lemon: #DDFA48;
+    --shadow:#405DFD;
+    --lightblue:#C8D9EB;
+    --brown: #B09D8C;
+    --greyblue:#97AFD0;
+    --shadowblue: #303E5E;
+    --brightshadow: #405DFD;
+}
+
+/* FONT SIZE*/
+
+.font-28{
+    font-size: 28rem;
+}
+.font-20{
+    font-size: 5rem;
+}
+.font-12{
+    font-size: 12rem;
+}
+.font-10{
+    font-size: 10rem;
+}
+.font-5{
+    font-size: 5rem;
+}
+.font-2{
+    font-size: 2rem;
+}
+
+section{
+    font-family: 'Yeseva One', cursive;
+    text-transform: none;
+}
+
+/* ********************************************************* */
+/*                    WANNA BELIEVE LEFT
+/* ********************************************************* */
+
+.bgWannaBelieve{
+    background-color: var(--purple);
+    padding: 3vw;
+}
+.txtWannaBelieve{ 
+    width: 70rem;
+    height: 40rem;
+    position: relative;
+    font-size: 10rem;
+    color: #D2C2F0;
+    /*-webkit-text-stroke: 0.2vw #DDFA48;*/
+    text-shadow: 25px 25px 0px #405DFD;
+}
+/*  typing animation */
+.txtWannaBelieve::before{
+    content: attr(data-text);
+    position: absolute;
+    height: 70%;
+    color: #DDFA48;
+    -webkit-text-stroke: 0vw #b79fe4;
+    border-right: 2px solid #DDFA48;
+    overflow: hidden;
+    animation: animate 6s linear infinite;
+}
+@keyframes animate{
+    0%, 10%, 100%
+    {
+        width: 0%;
+    }
+    50%, 90%
+    {
+        width: 60%;
+    }
+}
+
+/* ********************************************************* */
+/*          THAT U DON'T HAVE A BAD BONE IN YOUR BODY
+/* ********************************************************* */
+
+.bgThatUDont{
+    background-color: var(--purple);
+    padding: 3vw;
+}
+
+.txtThatUDont{ 
+    font-size: 8rem;
+    text-align: right;
+    color: #DDFA48;
+    display: inline-block;
+    width: 400px;
+    height: 50rem;
+    margin: 20px;
+    padding: 10px;
+}
+
+.txtbadbone{
+    font-size: 17rem;
+    text-align: center;
+    transform: rotate(270deg);
+    color: #151730;
+    width: 14rem;
+    height: 16rem;
+    padding: 1rem;
+    display: inline-block;
+}
+
+.txtInYourBody{ 
+    font-size: 8rem;
+    text-align: left;
+    color: #DDFA48;
+    display: inline-block;
+    width: 400px;
+    height: 30rem;
+    margin: 20px;
+    padding: 10px;
+}
+
+.txtButTheBruise{
+    font-size: 7rem;
+    text-align: left;
+    color: #DDFA48;
+    width: 30rem;
+    height: 25rem;
+    padding-left: 3rem;
+    padding-right: 8rem;
+    top: -5rem;
+}
+
+
+
+
+
+/* ********************************************************* */
+/*                      EGO MAKE YOU GO
+/* ********************************************************* */
+
+.bgEgo{
+    background-color: var(--purple);
+}
+
+.txtEgo{
+    font-size: 40rem;
+    text-align: center;
+    display: inline-block;
+    color:#151730;
+    position: relative;
+    top: -8rem;
+    text-shadow: 25px 25px 0px #405DFD;
+    justify-content: center;
+    align-items: center;
+    animation: waviy 2s infinite;
+    animation-delay: calc(.1s * var(--i));
+}
+
+/* JUMP ANIMATION */
+
+@keyframes waviy {
+    0%,40%,100% {
+      transform: translateY(0)
+    }
+    20% {
+      transform: translateY(-90px)
+    }
+  }
+
+.txtMakeYouGo{
+    font-size: 6rem;
+    text-align: right;
+    color:#DDFA48;
+    display: inline-block;
+    width: 16rem;
+    height: 30rem;
+    position: relative;
+    left: 8rem;
+    top: -14rem;
+}
+
+/* ********************************************************* */
+/*                          WILD
+/* ********************************************************* */
+
+.bgWild{
+    background-color: #151730;
+    overflow: hidden;
+    height: 80rem;
+    width: 100%;
+}
+.txtWild{
+    font-size: 12rem;
+    text-align: right;
+    color:#DDFA48;
+    transform: rotate(330deg);
+    height: 150rem;
+    width: 160rem;
+    top: -18rem;
+    right: 25rem;
+    overflow: hidden; 
+    position: relative;
+    font-weight: 800;
+    text-shadow: 5px 5px 0px #C8D9EB,
+                 10px 10px 0px #B09D8C,
+                 15px 15px 0px #97AFD0,
+                 20px 20px 0px #303E5E,
+                 25px 25px 0px #405DFD;
+
+}
+
+/* ********************************************************* */
+/*                    WANNA BELIEVE LEFT
+/* ********************************************************* */
+
+.bgWannaBelieve2{
+    background-color:#D2C2F0;
+    height: 70rem;
+    overflow: hidden;
+}
+
+.txtWannaBelieve2{
+    font-size: 28rem;
+    text-align: center;
+    line-height: 20rem;
+    color: #DDFA48;
+    top: -6rem;
+    right: 4rem;
+    position: relative;
+    text-shadow: 30px 25px 0px #405DFD;
+}
+
+/* ********************************************************* */
+/*                   STONE COLD YOU'R SORRY
+/* ********************************************************* */
+
+.bgEvenWhen{
+    background-color: var(--purple);
+    padding: 3vw;
+}
+
+.txtEvenWhen{
+    font-size: 3rem;
+    text-align: right;
+    color: #303E5E;
+    display: inline-block;
+    width: 20rem;
+    height: 8rem;
+    margin: 0rem 0rem 0rem 78rem;
+    padding: 1rem;
+    line-height: 98%;
+}
+
+.txtSorry{
+    font-size: 8rem;
+    text-align: center;
+    margin: 0rem 0rem 0rem 65rem;
+    color:#303E5E;
+    text-shadow: 15px 15px 0px #405DFD;
+}
+
+
+/* ********************************************************* */
+/*                   TELL ME OUTTA YOUR
+/* ********************************************************* */
+
+.bgTellMe{
+    background-color: var(--purple);
+    padding: 3vw;
+}
+
+.txtTellMe{ 
+    font-size: 8rem;
+    text-align: right;
+    color: #DDFA48;
+    display: inline-block;
+    width: 400px;
+    height: 50rem;
+    margin: 20px;
+    padding: 10px;
+}
+
+.txtOutYour{
+    font-size: 17rem;
+    text-align: center;
+    transform: rotate(0deg);
+    color: #151730;
+    width: 14rem;
+    height: 16rem;
+    padding: 1rem;
+    display: inline-block;
+}
+
+
+
+/* ********************************************************* */
+/*                          MIND
+/* ********************************************************* */
+
+.bgMind{
+    background-color: #151730;
+    overflow: hidden;
+    height: 80rem;
+    width: 100%;
+}
+.txtMind{
+    font-size: 12rem;
+    text-align: right;
+    color:#DDFA48;
+    transform: rotate(330deg);
+    height: 150rem;
+    width: 160rem;
+    top: -18rem;
+    right: 25rem;
+    overflow: hidden; 
+    position: relative;
+    font-weight: 800;
+    text-shadow: 5px 5px 0px #C8D9EB,
+                 10px 10px 0px #B09D8C,
+                 15px 15px 0px #97AFD0,
+                 20px 20px 0px #303E5E,
+                 25px 25px 0px #405DFD;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* color change animation */
+.title-word {
+    animation: color-animation 4s linear infinite;
+  }
+  
+  .title-word-1 {
+    --color-1: #DDFA48;
+    --color-2: #C8D9EB;
+    --color-3: #303E5E;
+  }
+
+  .title-word-2 {
+    --color-1: #303E5E;
+    --color-2: #DDFA48;
+    --color-3: #C8D9EB;
+  }
+  
+  .title-word-3 {
+    --color-1: #C8D9EB;
+    --color-2: #303E5E;
+    --color-3: #DDFA48;
+  }
+  
+  .title-word-4 {
+    --color-1: #DDFA48;
+    --color-2: #303E5E;
+    --color-3: #C8D9EB;
+  }
+  
+  .title-word-5 {
+    --color-1: #303E5E;
+    --color-2: #C8D9EB;
+    --color-3: #DDFA48;
+  }
+  
+  @keyframes color-animation {
+    0%    {color: var(--color-1)}
+    32%   {color: var(--color-1)}
+    33%   {color: var(--color-2)}
+    65%   {color: var(--color-2)}
+    66%   {color: var(--color-3)}
+    99%   {color: var(--color-3)}
+    100%  {color: var(--color-1)}
+  }
