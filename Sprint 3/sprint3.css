@@ -145,32 +145,22 @@ section{
 
 .bgEgo{
     background-color: var(--purple);
+    overflow: hidden;
+    height: 80rem;
+    width: 100%;
 }
 
 .txtEgo{
     font-size: 40rem;
     text-align: center;
     display: inline-block;
-    color:#151730;
+    color: var(--blue);
     position: relative;
     top: -8rem;
-    text-shadow: 25px 25px 0px #405DFD;
+    text-shadow: 25px 25px 0px var(--brightshadow);
     justify-content: center;
     align-items: center;
-    animation: waviy 2s infinite;
-    animation-delay: calc(.1s * var(--i));
 }
-
-/* JUMP ANIMATION */
-
-@keyframes waviy {
-    0%,40%,100% {
-      transform: translateY(0)
-    }
-    20% {
-      transform: translateY(-90px)
-    }
-  }
 
 .txtMakeYouGo{
     font-size: 6rem;
@@ -329,7 +319,24 @@ section{
 }
 
 
+.bgBox{
+    background-color: #151730;
+    overflow: hidden;
+    height: 80rem;
+    width: 100%;
+}
 
+.txtBox{
+    font-size: 40rem;
+    text-align: center;
+    display: inline-block;
+    color: var(--color-1);
+    position: relative;
+    top: -8rem;
+    text-shadow: 25px 25px 0px var(--color-2);
+    justify-content: center;
+    align-items: center;
+}
 
 
 
