@@ -267,30 +267,43 @@ section{
 
 .bgTellMe{
     background-color: var(--purple);
+    height: 50rem;
     padding: 3vw;
 }
 
 .txtTellMe{ 
     font-size: 8rem;
-    text-align: right;
-    color: #DDFA48;
+    text-align: left;
+    color:#DDFA48;
     display: inline-block;
-    width: 400px;
+    width: 45rem;
     height: 50rem;
     margin: 20px;
     padding: 10px;
 }
 
+
+
+.bgOutYour{
+    background-color: var(--purple);
+    padding: 3vw;
+    height: 5rem;
+}
+
 .txtOutYour{
-    font-size: 15rem;
+    font-size: 12rem;
     text-align: center;
-    transform: rotate(0deg);
+    transform: rotate(-90deg);
     color: #151730;
+    position: relative;
     width: 14rem;
     height: 16rem;
     padding: 1rem;
+    top: 20rem;
+    left: 50rem;
     display: inline-block;
 }
+
 
 
 
@@ -325,37 +338,11 @@ section{
 }
 
 
-.bgBox{
-    background-color: #151730;
-    overflow: hidden;
-    height: 80rem;
-    width: 100%;
-}
-
-.txtBox{
-    font-size: 40rem;
-    text-align: center;
-    display: inline-block;
-    color: var(--color-1);
-    position: relative;
-    top: -8rem;
-    text-shadow: 25px 25px 0px var(--color-2);
-    justify-content: center;
-    align-items: center;
-}
-
-
-
-
-
-
-
-
 
 
 /* color change animation */
 .title-word {
-    animation: color-animation 4s linear infinite;
+    animation: color-animation 2s linear infinite;
   }
   
   .title-word-1 {
@@ -397,3 +384,5 @@ section{
     99%   {color: var(--color-3)}
     100%  {color: var(--color-1)}
   }
+
+  
